@@ -1,4 +1,5 @@
 Artificial Intelligence — Philosophy, Architecture, and Physical Integration
+
 🧭 Overview
 
 This independent research project by S. I. Romanova (2025) explores the convergence of informatics, physics, and philosophy within the field of Artificial Intelligence.
