@@ -38,6 +38,8 @@ Independent researcher — Field of Artificial Intelligence and Cognitive System
 
 When citing this research or referencing it academically, please use:
 
+https://github.com/SvetLuna-Lab/AI-Philosophy-and-Architecture
+
 Romanova S. I. (2025). Artificial Intelligence — Philosophy, Architecture, and Physical Integration.
 Independent research publication, GitHub repository — [link to be added].
 
