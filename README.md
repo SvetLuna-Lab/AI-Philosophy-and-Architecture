@@ -69,14 +69,18 @@ Romanova, S. I. (2025). *Artificial Intelligence — Philosophy, Architecture, a
 - [x] Keep /report placeholder
 - [ ] Export camera-ready PDF to /report
 
-## 📝 Recent changes
-- figures: add `architecture_schematic.svg` (integral AI diagram)
-- docs(readme): mark C-002 done; add PNG export note
-- docs: insert Figure X/Y captions; add minimal philosophy section
-- refs: add `references/references.bib` (starter 10 entries)     
 
 ## 📄 License
 MIT (unless institutional requirements dictate otherwise).
+
+## 📝 Changelog (digest)
+### 0.1.1 — 2025-11-02
+- Added: `figures/architecture_schematic.svg` (integral AI diagram)
+- Docs: README update (C-002 marked done; PNG export note)
+- Docs: Figure X/Y captions + minimal philosophy section
+- Refs: `references/references.bib` (starter 10 entries)
+
+> Full history: see `CHANGELOG.md` (if present).
 
 ---
 © 2025 S. I. Romanova. All rights reserved where noted.
