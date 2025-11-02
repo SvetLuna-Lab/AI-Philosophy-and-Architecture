@@ -1,0 +1,63 @@
+name: Docs CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install codespell bibtexparser cairosvg
+
+      # 1) Орфография (быстро и мягко)
+      - name: Codespell (README and docs)
+        run: |
+          codespell README.md cases/README.md || true
+
+      # 2) Валидация BibTeX
+      - name: Validate references.bib
+        run: |
+          python - <<'PY'
+          import sys, pathlib, bibtexparser
+          p = pathlib.Path("references/references.bib")
+          if not p.exists():
+              print("No references.bib (skip)"); sys.exit(0)
+          with p.open(encoding="utf-8") as f:
+              db = bibtexparser.load(f)
+          n = len(db.entries)
+          print(f"BibTeX OK: {n} entries")
+          assert n >= 10, "Add more references (>=10 recommended)"
+          PY
+
+      # 3) Экспорт SVG -> PNG для Word/PDF
+      - name: Export SVG figures to PNG
+        run: |
+          mkdir -p exports
+          if [ -f figures/AI_Timeline_2col.svg ]; then
+            cairosvg figures/AI_Timeline_2col.svg -o exports/AI_Timeline_2col.png -W 3200
+          fi
+          if [ -f figures/architecture_schematic.svg ]; then
+            cairosvg figures/architecture_schematic.svg -o exports/architecture_schematic.png -W 3200
+          fi
+          ls -la exports || true
+
+      - name: Upload artifacts (PNG exports)
+        uses: actions/upload-artifact@v4
+        with:
+          name: figure-exports
+          path: exports/
+          if-no-files-found: ignore
