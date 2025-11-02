@@ -20,27 +20,22 @@ This independent research explores how AI evolves from algorithmic systems into 
 ## 📘 Files
 | File | Description |
 |---|---|
-| `report/AI-Philosophy-and-Architecture.pdf` | Camera-ready PDF of the coursework (compiled from DOCX) |
+| `report/AI-Philosophy-and-Architecture.pdf` | Camera-ready PDF (to be added) |
 | `manuscript/AI-Philosophy-and-Architecture.docx` | Working manuscript (source) |
-| `figures/AI_Timeline_Romanova_SI.png` | Timeline figure (1950–2025) |
-| `figures/architecture_schematic.png` | (Planned) Architecture diagram of integral AI |
+| `figures/AI_Timeline_2col.svg` | Timeline figure (1950–2025) |
 | `notebooks/01-timeline-fig.ipynb` | (Planned) Code to render/update the timeline figure |
-| `notebooks/02-architecture-notes.ipynb` | (Planned) Notes + citations to architectures |
-| `references/references.bib` | (Planned) BibTeX with ~30–40 entries |
+| `notebooks/02-architecture-notes.ipynb` | (Planned) Notes and citations on architectures |
+| `references/references.bib` | (Planned) BibTeX (~30–40 entries) |
 
-> Current sources: *AI-Philosophy-and-Architecture.docx* (main text) and *AI-Timeline.docx* (timeline notes). See manuscript folder.  
-> Timeline content basis: Romanova (1950–2025) — Turing, Dartmouth, Perceptrons, Backprop, LSTM, LeNet, AlexNet, GANs, Transformers, Diffusion, Quantum/Multimodal. 
+> Current sources: *AI-Philosophy-and-Architecture.docx* (main text) and *AI-Timeline.docx* (timeline notes); see the `manuscript/` folder.  
+> Timeline basis (1950–2025): Turing, Dartmouth, Perceptrons, Backprop, LSTM, LeNet, AlexNet, GANs, Transformers, Diffusion, Quantum/Multimodal.  
+> The former placeholder *AI_Coursework_Romanova_SI_English.docx* was removed to avoid duplication.
 
-## 🗂 Cases (public-safe index)
-Public-safe summaries of deliverables (no heavy/private data). Full private records are kept offline.
-
-| ID    | Title                           | Artifact (public)                                  |
-|-------|---------------------------------|----------------------------------------------------|
-| C-001 | AI Timeline (1950–2025)         | `figures/AI_Timeline_Romanova_SI.png` (planned)   |
-| C-002 | Integral Architecture Schematic | `figures/architecture_schematic.png` (planned)     |
-| C-003 | Camera-ready Report             | `report/AI-Philosophy-and-Architecture.pdf` (TBD)  |
-
-Details: see `cases/README.md`.
+| ID    | Title                           | Artifact (public)                    | Status  |
+|-------|---------------------------------|--------------------------------------|---------|
+| C-001 | AI Timeline (1950–2025)         | `figures/AI_Timeline_2col.svg`       | done    |
+| C-002 | Integral Architecture Schematic | `figures/architecture_schematic.svg` | done    |
+| C-003 | Camera-ready Report             | `report/AI-Philosophy-and-Architecture.pdf` | planned |
 
 ## 🔬 Methods (Author’s conceptual framework)
 - **Multilevel AI:** Logical (L), Evolutionary (E), Stochastic (S), Physical (P), Philosophical (Φ)  
