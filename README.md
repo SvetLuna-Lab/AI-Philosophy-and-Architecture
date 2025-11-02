@@ -59,6 +59,9 @@ Romanova, S. I. (2025). *Artificial Intelligence — Philosophy, Architecture, a
 - [ ] Add `notebooks/01-timeline-fig.ipynb` and `02-architecture-notes.ipynb`.
 - [ ] Add `LICENSE` (MIT) and `CITATION.cff`.
 - [ ] Set up CI to validate notebook execution (lightweight).
+- [x] Move DOCX to /manuscript
+- [x] Keep /report placeholder
+- [ ] Export camera-ready PDF to /report
 
 ## 📄 License
 MIT (unless institutional requirements dictate otherwise).
