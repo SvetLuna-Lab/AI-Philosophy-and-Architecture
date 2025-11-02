@@ -1,0 +1,126 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title{font:700 64px Georgia,serif; fill:#7a5a2b; text-anchor:middle}
+      .h{font:700 26px Georgia,serif; fill:#7a5a2b}
+      .t{font:400 22px Georgia,serif; fill:#7a5a2b}
+      .box{fill:#ffffff; stroke:#7a5a2b; stroke-width:4; rx:16; ry:16}
+      .lane{fill:#fffaf2; stroke:#7a5a2b; stroke-width:3; rx:18; ry:18}
+      .arrow{stroke:#7a5a2b; stroke-width:4; marker-end:url(#m); fill:none}
+      .arrow2{stroke:#7a5a2b; stroke-width:3; marker-end:url(#m); fill:none; stroke-dasharray:10 8}
+    </style>
+    <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a5a2b"></path>
+    </marker>
+  </defs>
+
+  <!-- Заголовок -->
+  <text x="800" y="85" class="title">AI ARCHITECTURE — INTEGRAL SCHEMATIC</text>
+
+  <!-- Дорожки (lane) -->
+  <rect x="60" y="120" width="1480" height="240" class="lane"></rect>
+  <text x="80" y="155" class="h">I. DATA &amp; REPRESENTATION</text>
+
+  <rect x="60" y="380" width="1480" height="260" class="lane"></rect>
+  <text x="80" y="415" class="h">II. LEARNING CORE</text>
+
+  <rect x="60" y="660" width="1480" height="200" class="lane"></rect>
+  <text x="80" y="695" class="h">III. EVALUATION &amp; INFERENCE</text>
+
+  <rect x="60" y="880" width="1480" height="160" class="lane"></rect>
+  <text x="80" y="915" class="h">IV. SAFETY • MONITORING • PHYSICS-INFORMED</text>
+
+  <!-- I. DATA & REPRESENTATION -->
+  <rect x="80" y="180" width="280" height="160" class="box"></rect>
+  <text x="100" y="210" class="h">Data sources</text>
+  <text x="100" y="240" class="t">Text • Images • Audio • Sensors</text>
+  <text x="100" y="270" class="t">Simulations • Logs • Metadata</text>
+
+  <rect x="380" y="180" width="320" height="160" class="box"></rect>
+  <text x="400" y="210" class="h">Preprocessing</text>
+  <text x="400" y="240" class="t">Cleaning • Normalization</text>
+  <text x="400" y="270" class="t">Augmentation • Tokenization</text>
+
+  <rect x="720" y="180" width="320" height="160" class="box"></rect>
+  <text x="740" y="210" class="h">Feature / Embedding</text>
+  <text x="740" y="240" class="t">WordPiece/BPE • CNN feats</text>
+  <text x="740" y="270" class="t">Spectral • Graph features</text>
+
+  <rect x="1060" y="180" width="460" height="160" class="box"></rect>
+  <text x="1080" y="210" class="h">Context &amp; Memory</text>
+  <text x="1080" y="240" class="t">KV-cache • External Memory</text>
+  <text x="1080" y="270" class="t">Vector DB / Retrieval (RAG)</text>
+
+  <path d="M360 260 L380 260" class="arrow"></path>
+  <path d="M700 260 L720 260" class="arrow"></path>
+  <path d="M1040 260 L1060 260" class="arrow"></path>
+
+  <!-- II. LEARNING CORE -->
+  <rect x="100" y="440" width="380" height="180" class="box"></rect>
+  <text x="120" y="470" class="h">Model families</text>
+  <text x="120" y="500" class="t">ANN • CNN • RNN/LSTM • GAN</text>
+  <text x="120" y="530" class="t">Transformer • Diffusion • RL</text>
+  <text x="120" y="560" class="t">PINNs • GraphNets • Quantum</text>
+
+  <rect x="520" y="440" width="340" height="180" class="box"></rect>
+  <text x="540" y="470" class="h">Training loop</text>
+  <text x="540" y="500" class="t">Forward → Loss → Backprop</text>
+  <text x="540" y="530" class="t">Optimizer (SGD/Adam/…)</text>
+  <text x="540" y="560" class="t">Regularization (Dropout, WD)</text>
+
+  <rect x="890" y="440" width="300" height="180" class="box"></rect>
+  <text x="910" y="470" class="h">Objectives</text>
+  <text x="910" y="500" class="t">CE • MSE • CLIP/Contrastive</text>
+  <text x="910" y="530" class="t">RLHF/RLAIF • Imitation</text>
+  <text x="910" y="560" class="t">Multitask / Multi-modal</text>
+
+  <rect x="1210" y="440" width="310" height="180" class="box"></rect>
+  <text x="1230" y="470" class="h">Physics-informed</text>
+  <text x="1230" y="500" class="t">PINNs • Constraints • Units</text>
+  <text x="1230" y="530" class="t">Energy-aware losses</text>
+  <text x="1230" y="560" class="t">Hybrid sim-to-real</text>
+
+  <path d="M480 530 L520 530" class="arrow"></path>
+  <path d="M860 530 L890 530" class="arrow"></path>
+  <path d="M1190 530 L1210 530" class="arrow"></path>
+
+  <!-- III. EVALUATION & INFERENCE -->
+  <rect x="100" y="720" width="420" height="120" class="box"></rect>
+  <text x="120" y="750" class="h">Validation &amp; Testing</text>
+  <text x="120" y="780" class="t">Holdout • Cross-val • Benchmarks</text>
+
+  <rect x="560" y="720" width="360" height="120" class="box"></rect>
+  <text x="580" y="750" class="h">Inference / Serving</text>
+  <text x="580" y="780" class="t">Batch • Streaming • Low-latency</text>
+
+  <rect x="950" y="720" width="270" height="120" class="box"></rect>
+  <text x="970" y="750" class="h">Orchestration</text>
+  <text x="970" y="780" class="t">Pipelines • A/B • Rollback</text>
+
+  <rect x="1240" y="720" width="280" height="120" class="box"></rect>
+  <text x="1260" y="750" class="h">Monitoring</text>
+  <text x="1260" y="780" class="t">Drift • Bias • Latency • Cost</text>
+
+  <path d="M520 780 L560 780" class="arrow"></path>
+  <path d="M920 780 L950 780" class="arrow"></path>
+  <path d="M1220 780 L1240 780" class="arrow"></path>
+
+  <!-- IV. SAFETY • MONITORING • PHYSICS-INFORMED -->
+  <rect x="100" y="940" width="600" height="80" class="box"></rect>
+  <text x="120" y="970" class="h">Safety &amp; Alignment</text>
+  <text x="120" y="1000" class="t">Policies • Red-teaming • Guardrails</text>
+
+  <rect x="740" y="940" width="400" height="80" class="box"></rect>
+  <text x="760" y="970" class="h">Governance &amp; Audit</text>
+  <text x="760" y="1000" class="t">Datasheets • Model cards • Traces</text>
+
+  <rect x="1160" y="940" width="360" height="80" class="box"></rect>
+  <text x="1180" y="970" class="h">Energy / Footprint</text>
+  <text x="1180" y="1000" class="t">Power • CO₂e • Thermals</text>
+
+  <!-- Перекрёстные связи -->
+  <path d="M880 260 C 900 260, 900 440, 880 440" class="arrow2"></path>   <!-- Embedding → Learning core -->
+  <path d="M1310 260 C 1330 260, 1330 720, 1310 720" class="arrow2"></path> <!-- Memory → Inference -->
+  <path d="M1370 530 C 1400 530, 1400 980, 1390 980" class="arrow2"></path> <!-- Physics-informed → Safety/Energy -->
+  <path d="M1240 780 C 1260 780, 1260 980, 1240 980" class="arrow2"></path> <!-- Monitoring loop -->
+</svg>
