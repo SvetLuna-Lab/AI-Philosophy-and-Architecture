@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# Builds / reports
+dist/
+build/
+*.log
+
+# Office temp files
+~$*
+*.tmp
+*.bak
+
+# Private archives — не публиковать
+cascade_archive/
+private/
+
+# Data (пример — оставьте sample/ отдельно)
+data/
+!data/sample/
