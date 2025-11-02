@@ -1,0 +1,12 @@
+# Не учитывать TeX/библиографию в языковой статистике
+*.tex linguist-vendored
+*.cls linguist-vendored
+*.sty linguist-vendored
+*.bib linguist-vendored
+
+# Документы и фигуры как документацию
+README.md linguist-documentation
+figures/* linguist-documentation
+
+# Считать ноутбуки как Python (иначе "Jupyter Notebook")
+notebooks/* linguist-language=Python
