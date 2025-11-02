@@ -1,0 +1,89 @@
+<svg width="1600" height="1800" viewBox="0 0 1600 1800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title{font:700 80px Georgia,serif; fill:#7a5a2b; letter-spacing:1px; text-anchor:middle}
+      .year{font:700 42px Georgia,serif; fill:#7a5a2b; text-anchor:end}
+      .text{font:400 30px Georgia,serif; fill:#7a5a2b}
+      .em{font-style:italic}
+      .axis{stroke:#7a5a2b; stroke-width:4}
+      .dot{fill:#fff; stroke:#7a5a2b; stroke-width:4}
+    </style>
+  </defs>
+
+  <!-- Заголовок -->
+  <text x="800" y="110" class="title">AI TIMELINE</text>
+
+  <!-- Колонки: слева годы, справа описания -->
+  <!-- Вертикальная ось между колонками (для ориентира) -->
+  <line x1="360" y1="180" x2="360" y2="1660" class="axis"></line>
+  <line x1="380" y1="180" x2="380" y2="1660" class="axis"></line>
+  <!-- точки-узлы -->
+  <!-- шаг по Y = 135 -->
+  <!-- базовые координаты -->
+  <!-- год: x=340, подписи: x=420 -->
+
+  <!-- 1 -->
+  <circle cx="370" cy="230" r="14" class="dot"></circle>
+  <text x="340" y="240" class="year">1950</text>
+  <text x="420" y="210" class="text">Alan Turing</text>
+  <text x="420" y="240" class="text em">“Can Machines Think?”</text>
+  <text x="420" y="270" class="text">Logic foundations</text>
+
+  <!-- 2 -->
+  <circle cx="370" cy="365" r="14" class="dot"></circle>
+  <text x="340" y="375" class="year">1956</text>
+  <text x="420" y="355" class="text">Dartmouth Workshop</text>
+  <text x="420" y="385" class="text">Birth of AI</text>
+
+  <!-- 3 -->
+  <circle cx="370" cy="500" r="14" class="dot"></circle>
+  <text x="340" y="510" class="year">1969</text>
+  <text x="420" y="490" class="text">Minsky &amp; Papert</text>
+  <text x="420" y="520" class="text em">“Perceptrons”</text>
+
+  <!-- 4 -->
+  <circle cx="370" cy="635" r="14" class="dot"></circle>
+  <text x="340" y="645" class="year">1986</text>
+  <text x="420" y="625" class="text">Backpropagation</text>
+  <text x="420" y="655" class="text">Neural revival</text>
+
+  <!-- 5 -->
+  <circle cx="370" cy="770" r="14" class="dot"></circle>
+  <text x="340" y="780" class="year">1997</text>
+  <text x="420" y="780" class="text">LSTM introduced</text>
+
+  <!-- 6 -->
+  <circle cx="370" cy="905" r="14" class="dot"></circle>
+  <text x="340" y="915" class="year">1998</text>
+  <text x="420" y="895" class="text">LeNet &amp; early CNNs</text>
+
+  <!-- 7 -->
+  <circle cx="370" cy="1040" r="14" class="dot"></circle>
+  <text x="340" y="1050" class="year">2012</text>
+  <text x="420" y="1030" class="text">AlexNet</text>
+  <text x="420" y="1060" class="text">Deep Learning breakthrough</text>
+
+  <!-- 8 -->
+  <circle cx="370" cy="1175" r="14" class="dot"></circle>
+  <text x="340" y="1185" class="year">2014</text>
+  <text x="420" y="1165" class="text">GANs</text>
+  <text x="420" y="1195" class="text">Generative revolution</text>
+
+  <!-- 9 -->
+  <circle cx="370" cy="1310" r="14" class="dot"></circle>
+  <text x="340" y="1320" class="year">2017</text>
+  <text x="420" y="1300" class="text">Transformers</text>
+  <text x="420" y="1330" class="text em">“Attention Is All You Need”</text>
+
+  <!-- 10 -->
+  <circle cx="370" cy="1445" r="14" class="dot"></circle>
+  <text x="340" y="1455" class="year">2020</text>
+  <text x="420" y="1435" class="text">Diffusion Models</text>
+  <text x="420" y="1465" class="text">Denoising generation</text>
+
+  <!-- 11 -->
+  <circle cx="370" cy="1580" r="14" class="dot"></circle>
+  <text x="340" y="1590" class="year">2023–2025</text>
+  <text x="420" y="1570" class="text">Quantum AI / Multimodal Agents</text>
+  <text x="420" y="1600" class="text">Physics-informed Models</text>
+</svg>
