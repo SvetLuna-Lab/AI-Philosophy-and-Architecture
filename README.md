@@ -31,6 +31,17 @@ This independent research explores how AI evolves from algorithmic systems into 
 > Current sources: *AI-Philosophy-and-Architecture.docx* (main text) and *AI-Timeline.docx* (timeline notes). See manuscript folder.  
 > Timeline content basis: Romanova (1950–2025) — Turing, Dartmouth, Perceptrons, Backprop, LSTM, LeNet, AlexNet, GANs, Transformers, Diffusion, Quantum/Multimodal. 
 
+## 🗂 Cases (public-safe index)
+Public-safe summaries of deliverables (no heavy/private data). Full private records are kept offline.
+
+| ID    | Title                           | Artifact (public)                                  |
+|-------|---------------------------------|----------------------------------------------------|
+| C-001 | AI Timeline (1950–2025)         | `figures/AI_Timeline_Romanova_SI.png` (planned)   |
+| C-002 | Integral Architecture Schematic | `figures/architecture_schematic.png` (planned)     |
+| C-003 | Camera-ready Report             | `report/AI-Philosophy-and-Architecture.pdf` (TBD)  |
+
+Details: see `cases/README.md`.
+
 ## 🔬 Methods (Author’s conceptual framework)
 - **Multilevel AI:** Logical (L), Evolutionary (E), Stochastic (S), Physical (P), Philosophical (Φ)  
 - **Formal view:** `AI = f(L, E, S, P, Φ)` and integral axis `∫Φ f(L,E,S,P) dΦ` — mapping micro processes to macro awareness.
