@@ -49,11 +49,14 @@ This independent research explores how AI evolves from algorithmic systems into 
 
 ## 🗂 Cases (Public-safe Index)
 
-| ID    | Title                           | Artifact (public)                    | Status  |
-|-------|---------------------------------|--------------------------------------|---------|
-| C-001 | AI Timeline (1950–2025)         | `figures/AI_Timeline_2col.svg`       | ✅ done    |
-| C-002 | Integral Architecture Schematic | `figures/architecture_schematic.svg` | ✅ done    |
-| C-003 | Camera-ready Report             | `report/AI-Philosophy-and-Architecture.pdf` | ⏳ planned |
+| ID    | Title                               | Artifact (public)                                         | Status  |
+|-------|-------------------------------------|------------------------------------------------------------|---------|
+| C-001 | AI Timeline (1950–2025)             | `figures/AI_Timeline_2col.svg`                            | ✅ done |
+| C-002 | Integral Architecture Schematic     | `figures/architecture_schematic.svg`                      | ✅ done |
+| C-003 | Camera-ready Report                 | `report/AI-Philosophy-and-Architecture.pdf`               | ⏳ planned |
+| C-004 | Regional AI Systems (RU, 2023–2025) | `manuscript/AI_Models_Russia_Romanova_SI.docx`            | ⏳ planned |
+| C-005 | Part II — Philosophy & Physics      | `manuscript/Part_II_Philosophy_and_Physics_Romanova_SI.docx` | ⏳ planned |
+
 
 ## 🔬 Methods (Author’s conceptual framework)
 - **Multilevel AI:** Logical (L), Evolutionary (E), Stochastic (S), Physical (P), Philosophical (Φ)  
