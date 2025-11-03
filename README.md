@@ -16,7 +16,6 @@ This independent research explores how AI evolves from algorithmic systems into 
 - **Part I — Conceptual Framework & History (1950–2025).** Canonical architectures and milestones.  
 - **Part II — Philosophical & Physical Integration.** Cognition ↔ information ↔ energy; alignment of models with physical constraints (PINNs, neuromorphic, quantum).  
 - **Appendix — AI Timeline (1950–2025).** Visual chronology of key shifts.
-
 ## 📘 Files
 | File | Description |
 |---|---|
@@ -27,15 +26,34 @@ This independent research explores how AI evolves from algorithmic systems into 
 | `notebooks/02-architecture-notes.ipynb` | (Planned) Notes and citations on architectures |
 | `references/references.bib` | (Planned) BibTeX (~30–40 entries) |
 
-> Current sources: *AI-Philosophy-and-Architecture.docx* (main text) and *AI-Timeline.docx* (timeline notes); see the `manuscript/` folder.  
-> Timeline basis (1950–2025): Turing, Dartmouth, Perceptrons, Backprop, LSTM, LeNet, AlexNet, GANs, Transformers, Diffusion, Quantum/Multimodal.  
+> **Current sources:** *AI-Philosophy-and-Architecture.docx* (main text) and *AI-Timeline.docx* (timeline notes); see the `manuscript/` folder.  
+> **Timeline basis (1950–2025):** Turing, Dartmouth, Perceptrons, Backprop, LSTM, LeNet, AlexNet, GANs, Transformers, Diffusion, Quantum/Multimodal.
+
+---
+
+## 🧭 Timeline
+![AI Timeline](figures/AI_Timeline_2col_1600.png)  
+[Full-quality SVG →](figures/AI_Timeline_2col.svg)
+
+---
+
+## 🧩 Architecture (Integral Schematic)
+![AI Architecture](figures/architecture_schematic_3200.png)  
+[Full-quality SVG →](figures/architecture_schematic.svg)
+
+---
+
 > The former placeholder *AI_Coursework_Romanova_SI_English.docx* was removed to avoid duplication.
+
+---
+
+## 🗂 Cases (Public-safe Index)
 
 | ID    | Title                           | Artifact (public)                    | Status  |
 |-------|---------------------------------|--------------------------------------|---------|
-| C-001 | AI Timeline (1950–2025)         | `figures/AI_Timeline_2col.svg`       | done    |
-| C-002 | Integral Architecture Schematic | `figures/architecture_schematic.svg` | done    |
-| C-003 | Camera-ready Report             | `report/AI-Philosophy-and-Architecture.pdf` | planned |
+| C-001 | AI Timeline (1950–2025)         | `figures/AI_Timeline_2col.svg`       | ✅ done    |
+| C-002 | Integral Architecture Schematic | `figures/architecture_schematic.svg` | ✅ done    |
+| C-003 | Camera-ready Report             | `report/AI-Philosophy-and-Architecture.pdf` | ⏳ planned |
 
 ## 🔬 Methods (Author’s conceptual framework)
 - **Multilevel AI:** Logical (L), Evolutionary (E), Stochastic (S), Physical (P), Philosophical (Φ)  
