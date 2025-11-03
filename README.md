@@ -19,7 +19,7 @@ This independent research explores how AI evolves from algorithmic systems into 
 ## 📘 Files
 | File | Description |
 |---|---|
-| `report/AI-Philosophy-and-Architecture.pdf` | Camera-ready PDF (to be added) |
+| `report/AI-Philosophy-and-Architecture1.pdf` | Camera-ready PDF |
 | `manuscript/AI-Philosophy-and-Architecture.docx` | Working manuscript (source) |
 | `figures/AI_Timeline_2col.svg` | Timeline figure (1950–2025) |
 | `notebooks/01-timeline-fig.ipynb` | (Planned) Code to render/update the timeline figure |
