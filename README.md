@@ -44,7 +44,7 @@ This independent research explores how AI evolves from algorithmic systems into 
 | `figures/architecture_schematic_3200.png` | Architecture schematic (PNG for DOCX/Slides) |
 | `notebooks/01-timeline-fig.ipynb` | *(Planned)* Code to render/update the timeline figure |
 | `notebooks/02-architecture-notes.ipynb` | *(Planned)* Notes and citations on architectures |
-| `references/references.bib` | *(Planned)* BibTeX (~30–40 entries) |
+| `references/references.bib` | Core BibTeX file (key AI references; expandable) |
 
 > Current sources: `AI-Philosophy-and-Architecture.docx` (main text) and `AI-Timeline.docx` (timeline notes); see the `manuscript/` folder.  
 > Timeline basis (1950–2025): Turing, Dartmouth, Perceptrons, Backprop, LSTM, LeNet, AlexNet, GANs, Transformers, Diffusion, Quantum / Multimodal.
