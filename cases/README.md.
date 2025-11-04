@@ -1,9 +1,96 @@
-## 🗂 Cases (Public-safe Index)
+# Cases — Public-Safe Index
 
-| ID    | Title                               | Artifact (public)                                         | Status  |
-|-------|-------------------------------------|------------------------------------------------------------|---------|
-| C-001 | AI Timeline (1950–2025)             | `figures/AI_Timeline_2col.svg`                            | ✅ done |
-| C-002 | Integral Architecture Schematic     | `figures/architecture_schematic.svg`                      | ✅ done |
-| C-003 | Camera-ready Report                 | `report/AI-Philosophy-and-Architecture.pdf`               | ⏳ planned |
-| C-004 | Regional AI Systems (RU, 2023–2025) | `manuscript/AI_Models_Russia_Romanova_SI.docx`            | ⏳ planned |
-| C-005 | Part II — Philosophy & Physics      | `manuscript/Part_II_Philosophy_and_Physics_Romanova_SI.docx` | ⏳ planned |
+This folder tracks public-safe deliverables linked to the coursework.
+Private notes, raw drafts, and any sensitive materials are kept offline.
+
+## Case Index
+
+| ID    | Title                                   | Artifact (public)                                           | Status             |
+|-------|-----------------------------------------|-------------------------------------------------------------|--------------------|
+| C-001 | AI Timeline (1950–2025)                 | `figures/AI_Timeline_2col.svg`                              | ✅ done            |
+| C-002 | Integral AI Architecture Schematic      | `figures/architecture_schematic.svg`                        | ✅ done            |
+| C-003 | Camera-ready Report (Part I)            | `report/AI-Philosophy-and-Architecture.pdf`                 | ✅ done            |
+| C-004 | Regional AI Systems (RU, 2023–2025)     | `manuscript/AI_Models_Russia_Romanova_SI.docx`              | ✅ done (v1)       |
+| C-005 | Part II — Philosophy & Physics (v1)     | `manuscript/Part_II_Philosophy_and_Physics_Romanova_SI.docx` | ✅ done (v1, 2025) |
+
+---
+
+## Case Descriptions
+
+### C-001 — AI Timeline (1950–2025)
+
+**Artifacts:**
+- `figures/AI_Timeline_2col.svg`
+- `figures/AI_Timeline_2col_1600.png` (for DOCX / slides)
+
+A visual timeline of key milestones in AI development from 1950 to 2025, including:
+Turing, Dartmouth, Perceptrons, Backprop, LSTM, LeNet, AlexNet, GANs, Transformers, Diffusion, Quantum / Multimodal tracks.
+
+Used in Part I of the coursework.
+
+---
+
+### C-002 — Integral AI Architecture Schematic
+
+**Artifacts:**
+- `figures/architecture_schematic.svg`
+- `figures/architecture_schematic_3200.png` (for DOCX / slides)
+
+A block diagram of an integral AI architecture with lanes for:
+data & representation → learning core → evaluation & inference,
+and cross-cutting safety / alignment, governance, and physics-informed constraints.
+
+Supports the conceptual framework in Part I and Part II.
+
+---
+
+### C-003 — Camera-ready Report (Part I)
+
+**Artifact:**
+- `report/AI-Philosophy-and-Architecture.pdf`
+
+Camera-ready version of the main coursework:
+
+- Multilevel definition of AI (logical, evolutionary, stochastic, physical, philosophical).
+- Historical evolution (1950–2025) and canonical architectures.
+- Philosophy of AI and human–AI co-learning.
+- Educational / methodological elements and glossary.
+
+Source: `manuscript/AI-Philosophy-and-Architecture.docx`.
+
+---
+
+### C-004 — Regional AI Systems (Russia, 2023–2025)
+
+**Artifact:**
+- `manuscript/AI_Models_Russia_Romanova_SI.docx`
+
+Supplementary, public-safe overview of selected AI systems associated with the Russian ecosystem (2023–2025). Focus:
+
+- modalities (text, code, image, speech),
+- typical tasks and ecosystem roles,
+- neutral “model card”-style descriptions (no benchmarking or promotion).
+
+Referenced in Part I as a separate regional context note.
+
+---
+
+### C-005 — Part II — Philosophy & Physics (v1)
+
+**Artifacts:**
+- `manuscript/Part_II_Philosophy_and_Physics_Romanova_SI.docx`
+- `report/Part_II_Philosophy_and_Physics_Romanova_SI.pdf`
+
+Independent manuscript elaborating:
+
+- information, energy, and intent budgets,
+- resonance zone as a stability / alignment region,
+- physics-informed learning (units, conservation, PINNs, sim-to-real),
+- safety and governance as structural constraints, not add-ons,
+- Outlook section with directions toward applied physics / aerospace tasks.
+
+Linked from the main coursework as a separate Part II.
+
+---
+
+_Last updated: 2025-11-0X (S. I. Romanova)_
