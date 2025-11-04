@@ -42,8 +42,8 @@ This independent research explores how AI evolves from algorithmic systems into 
 | `figures/AI_Timeline_2col_1600.png` | Timeline figure (1950–2025, PNG for DOCX/Slides) |
 | `figures/architecture_schematic.svg` | Integral AI architecture schematic (vector) |
 | `figures/architecture_schematic_3200.png` | Architecture schematic (PNG for DOCX/Slides) |
-| `notebooks/01-timeline-fig.ipynb` | *(Planned)* Code to render/update the timeline figure |
-| `notebooks/02-architecture-notes.ipynb` | *(Planned)* Notes and citations on architectures |
+| `notebooks/01-timeline-fig.ipynb` | Future work: code to render/update the timeline |
+| `notebooks/02-architecture-notes.ipynb` | Future work: notes and citations on architectures |
 | `references/references.bib` | Core BibTeX file (key AI references; expandable) |
 
 > Current sources: `AI-Philosophy-and-Architecture.docx` (main text) and `AI-Timeline.docx` (timeline notes); see the `manuscript/` folder.  
