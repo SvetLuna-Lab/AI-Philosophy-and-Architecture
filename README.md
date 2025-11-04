@@ -171,7 +171,7 @@ Romanova, S. I. (2025). *Artificial Intelligence — Philosophy, Architecture, a
 Independent academic research exploring the intersection of Artificial Intelligence, physics, and philosophy — where computation transforms into cognition and, in the limit, into awareness.  
 Authored by **S. I. Romanova (2025).**
 
-LinkedIn: <https://www.linkedin.com/in/svetlana-romanova-ai>
+LinkedIn: <https://www.linkedin.com/in/svetlana-romanova-418596387
 
 **Topics:**  
 `machine-learning` · `deep-learning` · `physics` · `philosophy` · `artificial-intelligence` · `neural-networks` · `research-project` · `cognitive-systems` · `academic-writing` · `ai-philosophy`
