@@ -119,8 +119,6 @@ Public-safe index of deliverables. Private notes and drafts remain offline.
 Romanova, S. I. (2025). *Artificial Intelligence — Philosophy, Architecture, and Physical Integration.* GitHub repository:  
 <https://github.com/SvetLuna-Lab/AI-Philosophy-and-Architecture>
 
-(A LinkedIn post / DOI may be added after official release.)
-
 ---
 
 ## ✅ Roadmap
