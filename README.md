@@ -63,9 +63,6 @@ This independent research explores how AI evolves from algorithmic systems into 
 
 ---
 
-> The former placeholder *AI_Coursework_Romanova_SI_English.docx* was removed to avoid duplication.
-
----
 
 ## 🗂 Cases (Public-safe Index)
 
